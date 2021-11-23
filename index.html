@@ -8,10 +8,11 @@
     <title>Integral University</title>
     <link rel="shortcut icon" href="image/favicon2.ico" type="image/x-icon">
     <link rel="icon" href="image/favicon2.ico" type="image/x-icon">
-    <link rel="stylesheet" href="university.css">
+    <link rel="stylesheet" href="University.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ce0692ee2e.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -19,7 +20,9 @@
         <nav>
             <a href="index.html"><img src="Images/logonew.png" alt=""></a>
 
-            <div class="nav-link">
+
+            <div class="nav-link" id="navLink">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
@@ -28,24 +31,63 @@
                     <li><a href="">CONTACT</a></li>
                 </ul>
             </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="textbook">
             <h1>Integral University Lucknow</h1>
             <p>This is one of the best University in Uttar Pradesh. <br> Lorem, ipsum dolor sit amet consectetur
                 adipisicing
                 elit. Nesciunt, perspiciatis.</p>
-            <a href="https://www.iul.ac.in" target="_blank" class="btn">Visit us to Know more</a>
+            <a href="" class="btn">Visit us to Know more</a>
         </div>
     </section>
     <!-------course------>
-    
+
     <section class="course">
         <h1>Courses We Offer</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem aut asperiores repellat autem veniam</p>
 
-        
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id maxime dolorum nam commodi culpa expedita
+                    incidunt deleniti alias, suscipit sint harum ducimus laborum molestiae itaque ullam illum quod rerum
+                    et minus eum consectetur aut. Fuga impedit dolorum a officiis quis facilis nisi laborum pariatur
+                    eveniet at obcaecati corporis, quisquam deleniti.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id maxime dolorum nam commodi culpa expedita
+                    incidunt deleniti alias, suscipit sint harum ducimus laborum molestiae itaque ullam illum quod rerum
+                    et minus eum consectetur aut. Fuga impedit dolorum a officiis quis facilis nisi laborum pariatur
+                    eveniet at obcaecati corporis, quisquam deleniti.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id maxime dolorum nam commodi culpa expedita
+                    incidunt deleniti alias, suscipit sint harum ducimus laborum molestiae itaque ullam illum quod rerum
+                    et minus eum consectetur aut. Fuga impedit dolorum a officiis quis facilis nisi laborum pariatur
+                    eveniet at obcaecati corporis, quisquam deleniti.</p>
+            </div>
+
+
+        </div>
+
 
     </section>
+
+    <!-- ----------JavaScript for Toggle Menu---------- -->
+    <script>
+        var navLink = document.getElementById("navLink");
+
+        function showMenu() {
+            navLink.style.right = "0";
+        }
+        function hideMenu() {
+            navLink.style.right = "-200px";
+
+        }
+    </script>
 
 </body>
 
