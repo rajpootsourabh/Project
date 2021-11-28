@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integral University</title>
+    <link rel="shortcut icon" href="image/favicon2.ico" type="image/x-icon">
+    <link rel="icon" href="Images/favicon2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="university.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ce0692ee2e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="Images/logonew.png" alt=""></a>
+            <div class="nav-link" id="navLink">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Programs for 2021</h1>
+    </section>
+
+    <!-- --------Blog Page-------- -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="Images/certificate.jpg" alt="">
+                <h2>Our Certificate & Programs for 2021<h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, eius officia minima enim unde et
+                            iusto quas odit. Cumque molestias dolorem suscipit, quos pariatur quibusdam vero ratione
+                            molestiae fugiat quaerat inventore perspiciatis laborum dolore voluptates ut maxime quae,
+                            voluptatem voluptatibus eius omnis sed ipsam rem. Hic nostrum officia dicta fuga consectetur
+                            accusantium labore placeat quae modi. Quod, officia fuga eos libero magni expedita
+                            aspernatur veniam quidem molestiae quae laborum suscipit.</p>
+                        <br>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, nostrum ipsam? Doloribus
+                            velit consectetur officia unde odit minus aspernatur quisquam pariatur, quaerat, provident
+                            sit natus accusamus. Dicta cum odio repudiandae qui natus architecto et minus molestias.
+                            Laboriosam, veniam doloremque odit rem error ab commodi dicta eligendi asperiores minima nam
+                            dolor. Atque temporibus odit vel eaque provident! Quam tenetur tempore ullam itaque,
+                            voluptatem vitae. Obcaecati vitae architecto accusantium delectus nihil quo.</p>
+                        <br>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, cum! Assumenda harum
+                            molestias non minus voluptate quas nobis necessitatibus sit! Nulla porro dicta dolore fuga
+                            maiores, dolorem eum culpa eos. Architecto consequatur minima aliquam ipsum laborum,
+                            excepturi minus exercitationem laboriosam, quo, possimus alias expedita sequi blanditiis
+                            quasi aut optio. Blanditiis veritatis nemo exercitationem consequuntur illum molestiae
+                            nesciunt amet quo esse!</p>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vel explicabo expedita
+                            labore dolores incidunt sunt odit omnis eveniet? Praesentium voluptate quia quaerat. Atque
+                            molestiae placeat libero voluptas vitae magni quod quasi quam nemo distinctio facere vero,
+                            impedit, sequi ad iure aliquid! Quas expedita maxime impedit labore temporibus laboriosam
+                            sapiente?</p>
+                        <div class="comment-box">
+                            <h3>Leave a Comment</h3>
+                            <form class="comment-form">
+                                <input type="text" placeholder="Enter Name">
+                                <input type="email" placeholder="Enter Email">
+                                <textarea rows="6" placeholder="Your Comment"></textarea>
+                                <button type="submit" class="btn red-btn">POST COMMENT</button>
+                            </form>
+                        </div>
+
+
+
+            </div>
+
+            <div class="blog-right">
+                <h3>Post Categeories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science </span>
+                    <span>26</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>12</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>18</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>39</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>42</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- --------Footer-------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam delectus vero beatae earum deleniti,
+            quibusdam dicta cum consectetur sunt quae Lorem ipsum dolor sit<br>consectetur, adipisicing elit.
+            cum accusantium repellendus!</p>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+            <a href="https://wa.me/16139022218" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p class="creator">Made with<i class="far fa-heart"></i>by Sourabh Singh</p>
+    </section>
+
+
+    <!-- ----------JavaScript for Toggle Menu---------- -->
+    <script>
+        var navLink = document.getElementById("navLink");
+
+        function showMenu() {
+            navLink.style.right = "0";
+        }
+        function hideMenu() {
+            navLink.style.right = "-200px";
+
+        }
+    </script>
+
+</body>
+
+</html>
