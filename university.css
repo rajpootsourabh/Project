@@ -123,6 +123,7 @@ nav .fas{
     .nav-link ul{
         padding: 30px;
     }
+
 }
 
 /* --------Navigation Bar-------- */
@@ -287,7 +288,7 @@ padding: 0px;
     text-align: left;
 }
 .testimonial-col .fas, .far{
-     color: #f44336;
+     color: #ee4511;
 }
 
 @media(max-width:480px){
@@ -456,13 +457,13 @@ padding: 30px 0;
 .comment-box h3{
     text-align: left;
 }
-.comment-form input, textarea {
+.comment-form input, .comment-form textarea {
     width: 100%;
     padding: 10px;
     margin: 15px 0;
     border: none;
     background-color: #dddcdc ;
-    color: w;
+    color: rgb(22, 21, 21);
     box-sizing: border-box;
     outline: none;
 }
